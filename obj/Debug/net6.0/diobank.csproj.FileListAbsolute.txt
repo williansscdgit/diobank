@@ -1,0 +1,15 @@
+D:\devs\diobank\bin\Debug\net6.0\diobank.exe
+D:\devs\diobank\bin\Debug\net6.0\diobank.deps.json
+D:\devs\diobank\bin\Debug\net6.0\diobank.runtimeconfig.json
+D:\devs\diobank\bin\Debug\net6.0\diobank.dll
+D:\devs\diobank\bin\Debug\net6.0\diobank.pdb
+D:\devs\diobank\obj\Debug\net6.0\diobank.csproj.AssemblyReference.cache
+D:\devs\diobank\obj\Debug\net6.0\diobank.GeneratedMSBuildEditorConfig.editorconfig
+D:\devs\diobank\obj\Debug\net6.0\diobank.AssemblyInfoInputs.cache
+D:\devs\diobank\obj\Debug\net6.0\diobank.AssemblyInfo.cs
+D:\devs\diobank\obj\Debug\net6.0\diobank.csproj.CoreCompileInputs.cache
+D:\devs\diobank\obj\Debug\net6.0\diobank.dll
+D:\devs\diobank\obj\Debug\net6.0\refint\diobank.dll
+D:\devs\diobank\obj\Debug\net6.0\diobank.pdb
+D:\devs\diobank\obj\Debug\net6.0\diobank.genruntimeconfig.cache
+D:\devs\diobank\obj\Debug\net6.0\ref\diobank.dll
