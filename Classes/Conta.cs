@@ -23,5 +23,15 @@ namespace diobank.Classes
         * Criar os métodos: Sacar, Depositar, Transferir.
         * Override toString()
         */
+
+        public bool Sacar(double? valor)
+        {
+            if (valor <= (this.Credito + this.Saldo))
+            {
+                return false;
+            }
+            this.Saldo += valor;
+            return true;
+        }
     }
 }
