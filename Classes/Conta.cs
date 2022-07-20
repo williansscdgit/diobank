@@ -18,20 +18,31 @@ namespace diobank.Classes
             this.Saldo = saldo;
         }
 
-        /*
-        * Todo
-        * Criar os métodos: Sacar, Depositar, Transferir.
-        * Override toString()
-        */
-
-        public bool Sacar(double? valor)
+        public void Depositar(double? valor) => this.Saldo += valor;
+        public bool Transferir(Conta conta, double? valor)
         {
-            if (valor <= (this.Credito + this.Saldo))
+            if (valor > (this.Saldo + this.Credito))
             {
                 return false;
             }
-            this.Saldo += valor;
+            this.Sacar(valor);
+            conta.Depositar(valor);
             return true;
+        }
+
+        public bool Sacar(double? valor)
+        {
+            if (valor > (this.Credito + this.Saldo))
+            {
+                return false;
+            }
+            this.Saldo -= valor;
+            return true;
+        }
+
+        public override string ToString()
+        {
+            return $"{this.TipoConta},{this.Nome},{this.Credito},{this.Saldo}";
         }
     }
 }
